@@ -1,0 +1,9 @@
+npm create astro@latest
+
+npx astro add vue
+
+
+Semantic vector graphics. Before use icons, you need to install @ant-design/icons-vue package:
+    npm install --save @ant-design/icons-vue
+
+
