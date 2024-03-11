@@ -2,11 +2,27 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import BuscarCoincidencia from "../components/BuscarCoincidencia.vue";
+import ContadorImpares from "../components/ContadorImpares.vue";
+import InputFields from "../components/InputFields.vue";
+import Usuarios from "../components/Usuarios.vue";
+import TablaMultiplicar from "../components/TablaMultiplicar.vue";
+import VerificadorPalindromo from "../components/VerificadorPalindromo.vue";
+import VerificadorPalindromo2 from "../components/VerificadorPalindromo2.vue";
+import CadenaInvertida from "../components/CadenaInvertida.vue";
+import Porcentaje from "../components/Porcentaje.vue";
+import ContarImpares from "../components/ContarImpares.vue";
+import InvertirNumero from "../components/InvertirNumero.vue";
+import ElementosComunes from "../components/ElementosComunes.vue";
+import Repeticiones from "../components/Repeticiones.vue";
+import BuscarLetraMasRepetida from "../components/BuscarLetraMasRepetida.vue";
+import ContarVocales from "../components/ContarVocales.vue";
+import ImprimirBuzz from "../components/ImprimirBuzz.vue";
+import MostrarDivisores from "../components/MostrarDivisores.vue";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-	<!-- Funcionando -->
+    <!-- Funcionando -->
     <!-- <BuscarCoincidencia client:visible /> -->
 
     <svg
@@ -41,6 +57,7 @@ import BuscarCoincidencia from "../components/BuscarCoincidencia.vue";
     <p class="instructions">
       To get started, open the directory <code>src/pages</code> in your project.<br
       />
+
       <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
     </p>
     <ul role="list" class="link-card-grid">
@@ -65,6 +82,22 @@ import BuscarCoincidencia from "../components/BuscarCoincidencia.vue";
         body="Come say hi to our amazing Discord community. ❤️"
       />
       <BuscarCoincidencia client:visible />
+      <ContadorImpares client:visible />
+      <InputFields client:visible />
+      <Usuarios client:visible />
+      <TablaMultiplicar client:visible />
+      <VerificadorPalindromo client:visible />
+      <VerificadorPalindromo2 client:visible />
+      <CadenaInvertida client:visible />
+      <Porcentaje client:visible />
+      **<ContarImpares client:visible />**
+      <InvertirNumero client:visible />
+      <ElementosComunes client:visible />
+      <Repeticiones client:visible />
+      <BuscarLetraMasRepetida client:visible />
+      <ContarVocales client:visible />
+      <ImprimirBuzz client:visible />
+      <MostrarDivisores client:visible />
     </ul>
   </main>
 </Layout>
